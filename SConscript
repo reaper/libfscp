@@ -22,8 +22,8 @@ if sys.platform.startswith('win32'):
 else:
     libraries.append('cryptoplus')
 
-libraries.append('boost_system' + os.environ['FREELAN_BOOST_SUFFIX'])
-libraries.append('boost_date_time' + os.environ['FREELAN_BOOST_SUFFIX'])
+libraries.append('boost_system')
+libraries.append('boost_date_time')
 
 if sys.platform.startswith('win32'):
 
